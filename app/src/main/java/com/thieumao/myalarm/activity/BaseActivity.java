@@ -1,4 +1,4 @@
-package com.thieumao.myalarm.ui.activity;
+package com.thieumao.myalarm.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

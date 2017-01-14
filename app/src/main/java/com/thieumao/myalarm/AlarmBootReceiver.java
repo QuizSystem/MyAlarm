@@ -1,9 +1,9 @@
-package com.thieumao.myalarm.ui.alarms;
+package com.thieumao.myalarm;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import com.thieumao.myalarm.data.Constants;
+import com.thieumao.myalarm.utility.Constants;
 import com.thieumao.myalarm.utility.AlarmUtils;
 
 public class AlarmBootReceiver extends BroadcastReceiver {

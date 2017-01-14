@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.thieumao.myalarm.ui.activity.MainActivity"
+            android:name=".activity.MainActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,21 +24,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.activity.ListAlarmsActivity"
+            android:name=".activity.ListAlarmsActivity"
             android:theme="@style/Theme.AppCompat" />
         <activity
-            android:name=".ui.activity.AlarmDetailActivity"
+            android:name=".activity.AlarmDetailActivity"
             android:theme="@style/Theme.AppCompat" />
 
         <receiver
-            android:name=".ui.alarms.AlarmBootReceiver"
+            android:name=".AlarmBootReceiver"
             android:enabled="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 
-        <service android:name=".service.SchedulingService" />
+        <service android:name=".SchedulingService" />
     </application>
 
 </manifest>

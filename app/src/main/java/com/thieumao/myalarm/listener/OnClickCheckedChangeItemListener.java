@@ -1,4 +1,4 @@
-package com.thieumao.myalarm.data.listener;
+package com.thieumao.myalarm.listener;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;

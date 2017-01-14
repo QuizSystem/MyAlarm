@@ -7,14 +7,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
-import android.text.TextUtils;
 
-import com.thieumao.myalarm.data.Constants;
-import com.thieumao.myalarm.data.controller.AlarmRepository;
-import com.thieumao.myalarm.data.model.Alarm;
-import com.thieumao.myalarm.service.SchedulingService;
-import com.thieumao.myalarm.ui.activity.MainActivity;
-import com.thieumao.myalarm.ui.alarms.AlarmBootReceiver;
+import com.thieumao.myalarm.Alarm;
+import com.thieumao.myalarm.AlarmRepository;
+import com.thieumao.myalarm.SchedulingService;
+import com.thieumao.myalarm.activity.MainActivity;
+import com.thieumao.myalarm.AlarmBootReceiver;
 
 import java.util.Calendar;
 import java.util.List;

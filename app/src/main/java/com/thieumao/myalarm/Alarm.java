@@ -1,6 +1,6 @@
-package com.thieumao.myalarm.data.model;
+package com.thieumao.myalarm;
 
-import com.thieumao.myalarm.data.Constants;
+import com.thieumao.myalarm.utility.Constants;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.thieumao.myalarm.ui.activity;
+package com.thieumao.myalarm.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,12 +6,13 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.thieumao.myalarm.Alarm;
 import com.thieumao.myalarm.R;
-import com.thieumao.myalarm.data.Constants;
-import com.thieumao.myalarm.data.controller.AlarmRepository;
-import com.thieumao.myalarm.data.listener.OnTimeSetPickerListener;
-import com.thieumao.myalarm.data.model.Alarm;
-import com.thieumao.myalarm.ui.fragment.TimePickerFragment;
+import com.thieumao.myalarm.utility.Constants;
+import com.thieumao.myalarm.AlarmRepository;
+import com.thieumao.myalarm.listener.OnTimeSetPickerListener;
+import com.thieumao.myalarm.TimePickerFragment;
 import com.thieumao.myalarm.utility.AlarmUtils;
 
 import java.text.DateFormat;

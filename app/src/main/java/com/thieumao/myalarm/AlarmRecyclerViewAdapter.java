@@ -1,4 +1,4 @@
-package com.thieumao.myalarm.ui.adapter;
+package com.thieumao.myalarm;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -11,11 +11,11 @@ import android.widget.CheckBox;
 import android.widget.RelativeLayout;
 import android.widget.Switch;
 import android.widget.TextView;
-import com.thieumao.myalarm.R;
-import com.thieumao.myalarm.data.listener.OnClickCheckedChangeItemListener;
-import com.thieumao.myalarm.data.listener.OnClickItemListener;
-import com.thieumao.myalarm.data.listener.OnLongClickItemListener;
-import com.thieumao.myalarm.data.model.Alarm;
+
+import com.thieumao.myalarm.listener.OnClickCheckedChangeItemListener;
+import com.thieumao.myalarm.listener.OnClickItemListener;
+import com.thieumao.myalarm.listener.OnLongClickItemListener;
+
 import java.util.List;
 
 public class AlarmRecyclerViewAdapter

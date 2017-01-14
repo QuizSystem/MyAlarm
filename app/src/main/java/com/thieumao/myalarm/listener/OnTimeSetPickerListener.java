@@ -1,4 +1,4 @@
-package com.thieumao.myalarm.data.listener;
+package com.thieumao.myalarm.listener;
 
 public interface OnTimeSetPickerListener {
     void onTimeSetPicker(int hourOfDay, int minute);

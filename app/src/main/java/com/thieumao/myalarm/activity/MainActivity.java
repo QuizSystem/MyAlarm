@@ -1,4 +1,4 @@
-package com.thieumao.myalarm.ui.activity;
+package com.thieumao.myalarm.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,20 +7,18 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Vibrator;
 import android.support.v4.content.ContextCompat;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AnalogClock;
 import android.widget.ImageView;
 import android.widget.TextClock;
 import android.widget.TextView;
+
+import com.thieumao.myalarm.Alarm;
 import com.thieumao.myalarm.R;
-import com.thieumao.myalarm.data.Constants;
-import com.thieumao.myalarm.data.controller.AlarmRepository;
-import com.thieumao.myalarm.data.model.Alarm;
+import com.thieumao.myalarm.utility.Constants;
+import com.thieumao.myalarm.AlarmRepository;
 import com.thieumao.myalarm.utility.MusicPlayerUtils;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package com.thieumao.myalarm.ui.activity;
+package com.thieumao.myalarm.activity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -15,14 +15,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.thieumao.myalarm.Alarm;
 import com.thieumao.myalarm.R;
-import com.thieumao.myalarm.data.Constants;
-import com.thieumao.myalarm.data.controller.AlarmRepository;
-import com.thieumao.myalarm.data.listener.OnClickCheckedChangeItemListener;
-import com.thieumao.myalarm.data.listener.OnClickItemListener;
-import com.thieumao.myalarm.data.listener.OnLongClickItemListener;
-import com.thieumao.myalarm.data.model.Alarm;
-import com.thieumao.myalarm.ui.adapter.AlarmRecyclerViewAdapter;
+import com.thieumao.myalarm.utility.Constants;
+import com.thieumao.myalarm.AlarmRepository;
+import com.thieumao.myalarm.listener.OnClickCheckedChangeItemListener;
+import com.thieumao.myalarm.listener.OnClickItemListener;
+import com.thieumao.myalarm.listener.OnLongClickItemListener;
+import com.thieumao.myalarm.AlarmRecyclerViewAdapter;
 import com.thieumao.myalarm.utility.AlarmUtils;
 import java.util.List;
 import io.realm.Realm;

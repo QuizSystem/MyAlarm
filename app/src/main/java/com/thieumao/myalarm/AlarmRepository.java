@@ -1,7 +1,6 @@
-package com.thieumao.myalarm.data.controller;
+package com.thieumao.myalarm;
 
-import com.thieumao.myalarm.data.Constants;
-import com.thieumao.myalarm.data.model.Alarm;
+import com.thieumao.myalarm.utility.Constants;
 
 import io.realm.Realm;
 import io.realm.RealmObject;

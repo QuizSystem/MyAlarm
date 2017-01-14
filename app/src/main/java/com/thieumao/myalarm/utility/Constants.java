@@ -1,4 +1,4 @@
-package com.thieumao.myalarm.data;
+package com.thieumao.myalarm.utility;
 
 import java.text.DateFormatSymbols;
 

@@ -1,10 +1,10 @@
-package com.thieumao.myalarm.service;
+package com.thieumao.myalarm;
 
 import android.app.IntentService;
 import android.content.Intent;
 
-import com.thieumao.myalarm.data.Constants;
 import com.thieumao.myalarm.utility.AlarmUtils;
+import com.thieumao.myalarm.utility.Constants;
 
 public class SchedulingService extends IntentService {
     public SchedulingService() {
